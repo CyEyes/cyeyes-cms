@@ -27,6 +27,8 @@ Complete web platform for CyEyes cybersecurity company, including landing page a
 
 The CyEyes Web Platform consists of two main components:
 
+![CyEyes Platform Overview](media/ce1.png)
+
 ### 1. Landing Page (Production Ready)
 A modern, bilingual "Coming Soon" landing page showcasing CyEyes services with:
 - Particle background animation
@@ -45,6 +47,13 @@ A secure, full-featured CMS platform for managing company website content with:
 - RESTful API
 - OWASP security compliance
 - Docker deployment ready
+
+![CyEyes CMS Interface](media/ce2.png)
+
+#### Admin Portal
+The powerful admin portal provides comprehensive content management capabilities:
+
+![CyEyes Admin Portal](media/ce-admin-portal.png)
 
 ---
 
