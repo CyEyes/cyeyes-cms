@@ -1,0 +1,41 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1760457432900,
+      "tag": "0000_wise_nicolaos",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1760457907599,
+      "tag": "0001_wise_catseye",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1760489645364,
+      "tag": "0002_clear_spirit",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1760515576055,
+      "tag": "0003_unusual_the_fallen",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1760517048568,
+      "tag": "0004_spotty_hellfire_club",
+      "breakpoints": true
+    }
+  ]
+}

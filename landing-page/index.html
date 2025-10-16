@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CyEyes - AI-Driven Cybersecurity Platform: Offensive | Defensive | Intelligence">
+    <meta name="keywords" content="cybersecurity, AI, security, offensive, defensive, intelligence">
+    <title>CyEyes - Coming Soon | AI-Driven Cybersecurity Platform</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Inter:wght@300;400;500;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/landing-styles.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Header -->
+    <header class="header" id="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="media/CyEyes2025.1.4.png" alt="CyEyes Logo" class="header-logo-image">
+                </div>
+
+                <button class="language-toggle" id="langToggle">
+                    <span class="lang-icon">🌐</span>
+                    <span class="lang-text" data-vi="EN" data-en="VI">EN</span>
+                </button>
+
+                <!-- Header hamburger toggle -->
+                <button class="header-toggle" id="headerToggle" aria-label="Toggle header" aria-expanded="true" aria-controls="site-header">
+                    <span class="hamburger" aria-hidden="true">✕</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <img src="media/Full-Logo.png" alt="CyEyes Full Logo" class="hero-logo-image">
+                </div>
+
+                <h1 class="hero-title glitch" data-text="COMING SOON">
+                    <span data-vi="SẮP RA MẮT" data-en="COMING SOON">SẮP RA MẮT</span>
+                </h1>
+
+                <p class="hero-subtitle" data-vi="Nền tảng An ninh mạng được hỗ trợ bởi AI" data-en="AI-Driven Cybersecurity Platform">
+                    Nền tảng An ninh mạng được hỗ trợ bởi AI
+                </p>
+
+                <div class="hero-tagline">
+                    <span class="tagline-item">Offensive</span>
+                    <span class="tagline-divider">|</span>
+                    <span class="tagline-item">Defensive</span>
+                    <span class="tagline-divider">|</span>
+                    <span class="tagline-item">Intelligence</span>
+                </div>
+
+                <p class="hero-description" data-vi="Giải pháp bảo mật toàn diện cho doanh nghiệp thời đại số" data-en="Comprehensive Security Solutions for Digital Enterprises">
+                    Giải pháp bảo mật toàn diện cho doanh nghiệp thời đại số
+                </p>
+
+                <div class="scroll-indicator">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <p data-vi="Cuộn xuống" data-en="Scroll Down">Cuộn xuống</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QR Code Section -->
+    <section class="qr-section">
+        <div class="container">
+            <h2 class="section-title" data-vi="Quét mã QR để truy cập" data-en="Scan QR Code to Access">
+                Quét mã QR để truy cập
+            </h2>
+
+            <div class="qr-grid">
+                <!-- QR Card 1 -->
+                <div class="qr-card" data-aos="fade-up" data-aos-delay="0">
+                    <a href="https://drive.google.com/file/d/1ZyiHKakMdS8r2zLANUYqfpRcO_6aLgvi/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="qr-code">
+                        <img src="media/qr-profiles-cyeyes.png" alt="CyEyes Profile">
+                    </a>
+                    <h3 class="qr-title" data-vi="Giới Thiệu CyEyes" data-en="CyEyes Overview">
+                        Giới Thiệu CyEyes
+                    </h3>
+                    <p class="qr-description" data-vi="Xem thông tin giới thiệu các sản phẩm và dịch vụ của CyEyes" data-en="View information about CyEyes products and services">
+                        Xem thông tin giới thiệu các sản phẩm và dịch vụ của CyEyes
+                    </p>
+                </div>
+
+                <!-- QR Card 2 -->
+                <div class="qr-card" data-aos="fade-up" data-aos-delay="100">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUKtFKJFF0NMTf_-s2rOwsYYXtfEApIKd4xVCPcQGmaC272w/viewform?usp=sharing&ouid=112248535790684629352" target="_blank" rel="noopener noreferrer" class="qr-code">
+                        <img src="media/qr-contact-us.png" alt="Contact Us">
+                    </a>
+                    <h3 class="qr-title" data-vi="Liên Hệ Tư Vấn" data-en="Contact Consultation">
+                        Liên Hệ Tư Vấn
+                    </h3>
+                    <p class="qr-description" data-vi="Liên hệ với các chuyên gia CyEyes để được tư vấn về sản phẩm và dịch vụ" data-en="Contact CyEyes experts for product and service consultation">
+                        Liên hệ với các chuyên gia CyEyes để được tư vấn về sản phẩm và dịch vụ
+                    </p>
+                </div>
+
+                <!-- QR Card 3 -->
+                <div class="qr-card" data-aos="fade-up" data-aos-delay="200">
+                    <a href="https://drive.google.com/file/d/1WHwr06ZyjENnADG4Mno_l9xplQZEic-8/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="qr-code">
+                        <img src="media/qr-profiles-privaguard.png" alt="PrivaGuard Profile">
+                    </a>
+                    <h3 class="qr-title" data-vi="Giới Thiệu PrivaGuard" data-en="PrivaGuard Overview">
+                        Giới Thiệu PrivaGuard
+                    </h3>
+                    <p class="qr-description" data-vi="Xem giới thiệu về sản phẩm PrivaGuard - Quản lý đồng thuận thông minh" data-en="Discover PrivaGuard - Smart Consent Management">
+                        Xem giới thiệu về sản phẩm PrivaGuard - Quản lý đồng thuận thông minh
+                    </p>
+                </div>
+
+                <!-- QR Card 4 -->
+                <div class="qr-card" data-aos="fade-up" data-aos-delay="300">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_Aw__UT1M-XA5pxkb3MUWKXWsWlNSJ2aEINhqqY8JcNCkRA/viewform?usp=sharing&ouid=112248535790684629352" target="_blank" rel="noopener noreferrer" class="qr-code">
+                        <img src="media/qr-privaguard-request.png" alt="PrivaGuard Request">
+                    </a>
+                    <h3 class="qr-title" data-vi="Đăng Ký PrivaGuard" data-en="Register PrivaGuard">
+                        Đăng Ký PrivaGuard
+                    </h3>
+                    <p class="qr-description" data-vi="Đăng ký tư vấn, dùng thử sản phẩm PrivaGuard" data-en="Register for consultation and try PrivaGuard">
+                        Đăng ký tư vấn, dùng thử sản phẩm PrivaGuard
+                    </p>
+                </div>
+
+                <!-- QR Card 5 -->
+                <div class="qr-card" data-aos="fade-up" data-aos-delay="400">
+                    <a href="https://drive.google.com/file/d/1u3dfZVIMR7lgjb5i0qOKHSKn7Obr4wIE/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="qr-code">
+                        <img src="media/qr-aasd.png" alt="AASD Service">
+                    </a>
+                    <h3 class="qr-title" data-vi="Dịch Vụ Gia Công" data-en="Software Development Services">
+                        Dịch Vụ Gia Công
+                    </h3>
+                    <p class="qr-description" data-vi="Xem giới thiệu dịch vụ gia công phần mềm" data-en="View software development service information">
+                        Xem giới thiệu dịch vụ gia công phần mềm
+                    </p>
+                </div>
+
+                <!-- QR Card 6 -->
+                <div class="qr-card" data-aos="fade-up" data-aos-delay="500">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScwDsYeP0jCfosGrdPAiHRxPfIQfT5-qYw5WvxIAaKtjcoTzg/viewform?usp=sharing&ouid=112248535790684629352" target="_blank" rel="noopener noreferrer" class="qr-code">
+                        <img src="media/qr-aasd-request.png" alt="AASD Request">
+                    </a>
+                    <h3 class="qr-title" data-vi="Đăng Ký Dịch Vụ" data-en="Service Registration">
+                        Đăng Ký Dịch Vụ
+                    </h3>
+                    <p class="qr-description" data-vi="Đăng ký tư vấn, báo giá dịch vụ gia công phần mềm" data-en="Register for consultation and software service quote">
+                        Đăng ký tư vấn, báo giá dịch vụ gia công phần mềm
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-vi="Liên hệ với chúng tôi" data-en="Contact Us">
+                Liên hệ với chúng tôi
+            </h2>
+
+            <p class="section-subtitle" data-vi="Hãy để lại thông tin, chúng tôi sẽ liên hệ lại với bạn sớm nhất" data-en="Leave your information and we will contact you soon">
+                Hãy để lại thông tin, chúng tôi sẽ liên hệ lại với bạn sớm nhất
+            </p>
+
+            <div class="contact-form-wrapper">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name" data-vi="Họ và tên *" data-en="Full Name *">Họ và tên *</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                minlength="2"
+                                maxlength="100"
+                                data-vi-placeholder="Nhập họ và tên của bạn"
+                                data-en-placeholder="Enter your full name"
+                                placeholder="Nhập họ và tên của bạn"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" data-vi="Email *" data-en="Email *">Email *</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                maxlength="255"
+                                data-vi-placeholder="email@example.com"
+                                data-en-placeholder="email@example.com"
+                                placeholder="email@example.com"
+                            >
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone" data-vi="Số điện thoại" data-en="Phone Number">Số điện thoại</label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                maxlength="20"
+                                data-vi-placeholder="+84 123 456 789"
+                                data-en-placeholder="+84 123 456 789"
+                                placeholder="+84 123 456 789"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company" data-vi="Công ty" data-en="Company">Công ty</label>
+                            <input
+                                type="text"
+                                id="company"
+                                name="company"
+                                maxlength="200"
+                                data-vi-placeholder="Tên công ty của bạn"
+                                data-en-placeholder="Your company name"
+                                placeholder="Tên công ty của bạn"
+                            >
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject" data-vi="Tiêu đề *" data-en="Subject *">Tiêu đề *</label>
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            required
+                            minlength="5"
+                            maxlength="200"
+                            data-vi-placeholder="Bạn quan tâm đến dịch vụ nào?"
+                            data-en-placeholder="What service are you interested in?"
+                            placeholder="Bạn quan tâm đến dịch vụ nào?"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" data-vi="Nội dung *" data-en="Message *">Nội dung *</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            required
+                            rows="5"
+                            minlength="10"
+                            maxlength="5000"
+                            data-vi-placeholder="Nhập nội dung chi tiết..."
+                            data-en-placeholder="Enter your detailed message..."
+                            placeholder="Nhập nội dung chi tiết..."
+                        ></textarea>
+                    </div>
+
+                    <div class="form-status" id="formStatus"></div>
+
+                    <button type="submit" class="btn-submit" id="submitBtn">
+                        <span data-vi="Gửi tin nhắn" data-en="Send Message">Gửi tin nhắn</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="copyright">
+                    &copy; 2025 CyEyes. All rights reserved.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61580343121323" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="particles.js"></script>
+    <script src="/landing-script.js"></script>
+</body>
+</html>

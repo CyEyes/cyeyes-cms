@@ -1,0 +1,170 @@
+{
+  "common": {
+    "welcome": "Chào mừng",
+    "loading": "Đang tải...",
+    "error": "Lỗi",
+    "success": "Thành công",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "create": "Tạo mới",
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "confirm": "Xác nhận",
+    "back": "Quay lại"
+  },
+  "nav": {
+    "home": "Trang Chủ",
+    "about": "Giới Thiệu",
+    "team": "Đội Ngũ",
+    "customers": "Khách Hàng",
+    "products": "Sản Phẩm & Dịch Vụ",
+    "blog": "Blog",
+    "contact": "Liên Hệ",
+    "admin": "Quản Trị",
+    "login": "Đăng Nhập",
+    "logout": "Đăng Xuất"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Mật khẩu",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất",
+    "forgotPassword": "Quên mật khẩu?",
+    "rememberMe": "Ghi nhớ đăng nhập",
+    "loginSuccess": "Đăng nhập thành công",
+    "loginError": "Email hoặc mật khẩu không đúng",
+    "sessionExpired": "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại."
+  },
+  "admin": {
+    "dashboard": "Tổng Quan",
+    "blogs": "Bài Viết",
+    "team": "Thành Viên",
+    "customers": "Khách Hàng",
+    "products": "Sản Phẩm",
+    "media": "Thư Viện",
+    "users": "Người Dùng",
+    "settings": "Cài Đặt",
+    "analytics": "Phân Tích",
+    "logs": "Nhật Ký"
+  },
+  "home": {
+    "tagline": "Nền tảng An ninh mạng được hỗ trợ bởi AI",
+    "description": "Giải pháp Bảo mật Toàn diện: Tấn công, Phòng thủ, Tình báo",
+    "cta": {
+      "explore": "Khám phá Sản phẩm",
+      "contact": "Liên hệ với chúng tôi",
+      "ready": "Sẵn sàng Bảo vệ Doanh nghiệp?",
+      "message": "Tham gia cùng hàng trăm tổ chức tin tưởng CyEyes cho nhu cầu an ninh mạng của họ.",
+      "getStarted": "Bắt đầu Ngay hôm nay"
+    },
+    "features": {
+      "title": "Giải pháp Bảo mật Toàn diện",
+      "subtitle": "An ninh mạng đầu cuối được hỗ trợ bởi trí tuệ nhân tạo",
+      "defensive": {
+        "title": "Phòng thủ",
+        "desc": "Bảo vệ cơ sở hạ tầng với hệ thống phát hiện và ngăn chặn mối đe dọa tiên tiến"
+      },
+      "offensive": {
+        "title": "Tấn công",
+        "desc": "Xác định lỗ hổng trước khi kẻ tấn công với kiểm tra xâm nhập và hoạt động đội đỏ"
+      },
+      "intelligence": {
+        "title": "Tình báo",
+        "desc": "Luôn đi trước các mối đe dọa với thông tin tình báo và phân tích thời gian thực"
+      }
+    },
+    "explore": {
+      "title": "Khám phá Thêm"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Thông tin mới nhất, tin tức và cập nhật từ CyEyes",
+    "search": "Tìm kiếm bài viết...",
+    "searchBtn": "Tìm kiếm",
+    "loading": "Đang tải bài viết...",
+    "noPosts": "Không tìm thấy bài viết",
+    "page": "Trang",
+    "previous": "Trước",
+    "next": "Sau",
+    "backToList": "Quay lại Blog",
+    "share": "Chia sẻ",
+    "interestedTitle": "Quan tâm đến Giải pháp của chúng tôi?",
+    "interestedDesc": "Liên hệ với chúng tôi để tìm hiểu CyEyes có thể giúp bảo mật tổ chức của bạn như thế nào.",
+    "contactUs": "Liên hệ",
+    "readMore": "Đọc thêm Bài viết"
+  },
+  "team": {
+    "title": "Đội ngũ của chúng tôi",
+    "subtitle": "Gặp gỡ các chuyên gia đằng sau giải pháp an ninh mạng CyEyes",
+    "loading": "Đang tải thành viên...",
+    "noMembers": "Không tìm thấy thành viên",
+    "joinTitle": "Tham gia Đội ngũ",
+    "joinDesc": "Chúng tôi luôn tìm kiếm những cá nhân tài năng để tham gia sứ mệnh làm cho thế giới số an toàn hơn.",
+    "joinBtn": "Xem Vị trí Tuyển dụng"
+  },
+  "customers": {
+    "title": "Khách hàng của chúng tôi",
+    "subtitle": "Được tin tưởng bởi các tổ chức hàng đầu trên toàn thế giới",
+    "loading": "Đang tải khách hàng...",
+    "noCustomers": "Không tìm thấy khách hàng",
+    "featuredTitle": "Nhận xét từ Khách hàng",
+    "partnersTitle": "Đối tác của chúng tôi",
+    "ctaTitle": "Trở thành Câu chuyện Thành công Tiếp theo",
+    "ctaDesc": "Tham gia cùng hàng trăm khách hàng hài lòng tin tưởng CyEyes cho nhu cầu an ninh mạng.",
+    "ctaBtn": "Bắt đầu"
+  },
+  "products": {
+    "title": "Sản phẩm & Dịch vụ",
+    "subtitle": "Giải pháp an ninh mạng toàn diện phù hợp với nhu cầu của bạn",
+    "all": "Tất cả Sản phẩm",
+    "featured": "Sản phẩm Nổi bật",
+    "moreProducts": "Sản phẩm Khác",
+    "loading": "Đang tải sản phẩm...",
+    "noProducts": "Không tìm thấy sản phẩm",
+    "free": "Miễn phí",
+    "contactUs": "Liên hệ",
+    "monthly": "tháng",
+    "yearly": "năm",
+    "learnMore": "Tìm hiểu thêm",
+    "pricing": "Giá",
+    "getStarted": "Bắt đầu",
+    "buyNow": "Mua ngay",
+    "contactSales": "Liên hệ Bán hàng",
+    "features": "Tính năng",
+    "backToList": "Quay lại Sản phẩm",
+    "readyTitle": "Sẵn sàng Bắt đầu?",
+    "readyDesc": "Liên hệ với chúng tôi ngay hôm nay để tìm hiểu thêm về sản phẩm này và cách nó có thể mang lại lợi ích cho tổ chức của bạn.",
+    "viewAll": "Xem Tất cả Sản phẩm",
+    "ctaTitle": "Cần Giải pháp Tùy chỉnh?",
+    "ctaDesc": "Chúng tôi có thể điều chỉnh sản phẩm và dịch vụ để đáp ứng yêu cầu cụ thể của bạn.",
+    "ctaBtn": "Liên hệ"
+  },
+  "contact": {
+    "title": "Liên hệ với chúng tôi",
+    "subtitle": "Liên lạc với đội ngũ của chúng tôi. Chúng tôi luôn sẵn sàng hỗ trợ!",
+    "infoTitle": "Thông tin Liên hệ",
+    "hoursTitle": "Giờ Làm việc",
+    "weekdays": "Thứ 2 - Thứ 6",
+    "saturday": "Thứ 7",
+    "sunday": "Chủ nhật",
+    "closed": "Đóng cửa",
+    "formTitle": "Gửi Tin nhắn",
+    "name": "Tên",
+    "email": "Email",
+    "phone": "Điện thoại",
+    "subject": "Tiêu đề",
+    "message": "Tin nhắn",
+    "submit": "Gửi Tin nhắn",
+    "sending": "Đang gửi...",
+    "successMessage": "Cảm ơn bạn! Tin nhắn của bạn đã được gửi thành công.",
+    "locationTitle": "Vị trí của chúng tôi",
+    "mapPlaceholder": "Tích hợp bản đồ sẽ sớm ra mắt"
+  },
+  "footer": {
+    "copyright": "© 2025 CyEyes. Bản quyền thuộc về CyEyes.",
+    "tagline": "Nền tảng An ninh mạng được hỗ trợ bởi AI"
+  }
+}

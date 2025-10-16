@@ -1,0 +1,84 @@
+
+services:
+  # Backend API Service
+  backend:
+    container_name: cyeyes-cms-backend
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.backend
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DATABASE_PATH=/app/database/cyeyes.db
+      - JWT_SECRET=${JWT_SECRET}
+      - JWT_EXPIRES_IN=${JWT_EXPIRES_IN:-7d}
+      - BCRYPT_ROUNDS=${BCRYPT_ROUNDS:-12}
+      - CORS_ORIGIN=${CORS_ORIGIN:-http://localhost}
+      - MAX_FILE_SIZE=${MAX_FILE_SIZE:-5242880}
+      - ADMIN_EMAIL=${ADMIN_EMAIL:-admin@cyeyes.com}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-Admin123!}
+      - ADMIN_NAME=${ADMIN_NAME:-CyEyes Administrator}
+    volumes:
+      - ./backend/database:/app/database
+      - ./backend/uploads:/app/uploads
+      - ./backend/logs:/app/logs
+    networks:
+      - cyeyes-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3000/api/health', (r) => {process.exit(r.statusCode === 200 ? 0 : 1)})"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+
+  # Frontend Service
+  frontend:
+    container_name: cyeyes-cms-frontend
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.frontend
+      args:
+        - VITE_API_URL=${VITE_API_URL:-http://localhost:3000/api}
+    ports:
+      - "80:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - cyeyes-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+
+  # Nginx Reverse Proxy (Production - Optional)
+  # Uncomment for production deployment with SSL
+  # nginx:
+  #   container_name: cyeyes-cms-nginx
+  #   image: nginx:1.25-alpine
+  #   ports:
+  #     - "443:443"
+  #   volumes:
+  #     - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+  #     - ./docker/nginx/ssl:/etc/nginx/ssl:ro
+  #   depends_on:
+  #     - frontend
+  #     - backend
+  #   networks:
+  #     - cyeyes-network
+  #   restart: unless-stopped
+
+networks:
+  cyeyes-network:
+    driver: bridge
+
+volumes:
+  backend-database:
+  backend-uploads:
+  backend-logs:

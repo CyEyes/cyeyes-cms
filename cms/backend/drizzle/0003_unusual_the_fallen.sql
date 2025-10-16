@@ -1,0 +1,1 @@
+ALTER TABLE products ADD `customer_values` text;

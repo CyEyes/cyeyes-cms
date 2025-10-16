@@ -1,0 +1,170 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "filter": "Filter",
+    "confirm": "Confirm",
+    "back": "Back"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "team": "Team",
+    "customers": "Customers",
+    "products": "Products & Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "admin": "Admin Portal",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "logout": "Logout",
+    "forgotPassword": "Forgot Password?",
+    "rememberMe": "Remember Me",
+    "loginSuccess": "Login successful",
+    "loginError": "Invalid email or password",
+    "sessionExpired": "Your session has expired. Please login again."
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "blogs": "Blog Posts",
+    "team": "Team Members",
+    "customers": "Customers",
+    "products": "Products",
+    "media": "Media Library",
+    "users": "User Management",
+    "settings": "Settings",
+    "analytics": "Analytics",
+    "logs": "Audit Logs"
+  },
+  "home": {
+    "tagline": "AI-Driven Cybersecurity Platform",
+    "description": "Comprehensive Security Solutions: Offensive, Defensive, Intelligence",
+    "cta": {
+      "explore": "Explore Products",
+      "contact": "Contact Us",
+      "ready": "Ready to Secure Your Business?",
+      "message": "Join hundreds of organizations that trust CyEyes for their cybersecurity needs.",
+      "getStarted": "Get Started Today"
+    },
+    "features": {
+      "title": "Comprehensive Security Solutions",
+      "subtitle": "End-to-end cybersecurity powered by artificial intelligence",
+      "defensive": {
+        "title": "Defensive",
+        "desc": "Protect your infrastructure with advanced threat detection and prevention systems"
+      },
+      "offensive": {
+        "title": "Offensive",
+        "desc": "Identify vulnerabilities before attackers do with penetration testing and red team operations"
+      },
+      "intelligence": {
+        "title": "Intelligence",
+        "desc": "Stay ahead of threats with real-time threat intelligence and analysis"
+      }
+    },
+    "explore": {
+      "title": "Explore More"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Latest insights, news, and updates from CyEyes",
+    "search": "Search blog posts...",
+    "searchBtn": "Search",
+    "loading": "Loading blog posts...",
+    "noPosts": "No blog posts found",
+    "page": "Page",
+    "previous": "Previous",
+    "next": "Next",
+    "backToList": "Back to Blog",
+    "share": "Share",
+    "interestedTitle": "Interested in Our Solutions?",
+    "interestedDesc": "Contact us to learn how CyEyes can help secure your organization.",
+    "contactUs": "Contact Us",
+    "readMore": "Read More Articles"
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet the experts behind CyEyes cybersecurity solutions",
+    "loading": "Loading team members...",
+    "noMembers": "No team members found",
+    "joinTitle": "Join Our Team",
+    "joinDesc": "We're always looking for talented individuals to join our mission of making the digital world safer.",
+    "joinBtn": "View Open Positions"
+  },
+  "customers": {
+    "title": "Our Customers",
+    "subtitle": "Trusted by leading organizations worldwide",
+    "loading": "Loading customers...",
+    "noCustomers": "No customers found",
+    "featuredTitle": "Client Testimonials",
+    "partnersTitle": "Our Partners",
+    "ctaTitle": "Become Our Next Success Story",
+    "ctaDesc": "Join hundreds of satisfied customers who trust CyEyes for their cybersecurity needs.",
+    "ctaBtn": "Get Started"
+  },
+  "products": {
+    "title": "Products & Services",
+    "subtitle": "Comprehensive cybersecurity solutions tailored to your needs",
+    "all": "All Products",
+    "featured": "Featured Products",
+    "moreProducts": "More Products",
+    "loading": "Loading products...",
+    "noProducts": "No products found",
+    "free": "Free",
+    "contactUs": "Contact Us",
+    "monthly": "month",
+    "yearly": "year",
+    "learnMore": "Learn More",
+    "pricing": "Pricing",
+    "getStarted": "Get Started",
+    "buyNow": "Buy Now",
+    "contactSales": "Contact Sales",
+    "features": "Features",
+    "backToList": "Back to Products",
+    "readyTitle": "Ready to Get Started?",
+    "readyDesc": "Contact us today to learn more about this product and how it can benefit your organization.",
+    "viewAll": "View All Products",
+    "ctaTitle": "Need a Custom Solution?",
+    "ctaDesc": "We can tailor our products and services to meet your specific requirements.",
+    "ctaBtn": "Contact Us"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team. We're here to help!",
+    "infoTitle": "Contact Information",
+    "hoursTitle": "Business Hours",
+    "weekdays": "Mon - Fri",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed",
+    "formTitle": "Send Us a Message",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "successMessage": "Thank you! Your message has been sent successfully.",
+    "locationTitle": "Our Location",
+    "mapPlaceholder": "Map integration coming soon"
+  },
+  "footer": {
+    "copyright": "© 2025 CyEyes. All rights reserved.",
+    "tagline": "AI-Driven Cybersecurity Platform"
+  }
+}
